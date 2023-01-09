@@ -1,0 +1,145 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+/*styling the nav-menu*/
+
+header{
+    background-color: white;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    display: flex;
+    justify-content: end;
+}
+header *{
+    display: inline;
+}
+header li{
+    margin: 20px;
+
+}
+
+/*styling the main container*/
+main{
+    width: 100%;
+    margin: 112px;
+    margin-bottom: 150px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 162px;
+    justify-content: center;
+}
+main section > .content{
+    text-align: center;
+}
+main section > .content p{
+    margin: 30px 420px 48px;
+}
+/*styling the hero-container*/
+
+.hero-container{
+    width: 90%;
+    display: flex;
+}
+
+.hero-container .content{
+    margin: 87px 80px 0 165px;
+    text-align: left;
+}
+.hero-container .content p{
+    margin: 30px 0 42px;
+}
+.hero-container .content .cta-btn-white{
+    margin-left: 16px;
+}
+.hero-container .illustration{
+    width: 47%;
+    padding: 0 92px 102px 0;
+    position: relative;
+}
+
+/*features container*/
+.features-container{
+    width: 100%;
+    margin-top: 124px;
+}
+
+.features-container .tab-menu{
+    margin: 0 24% 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.features-container .tab-menu button{
+    flex: 1;
+    padding: 1px;
+    font-size: 16px;
+    letter-spacing: 0.25px;
+    color: var(229, 8%, 60%);
+    border-bottom: 1px dotted hsla(240, 6%, 50%, 0.25);
+}
+.features-container .tab-menu button:hover{
+    color: var(red);
+}
+.features-container .tab-menu button .active{
+    color:hsl(229, 31%, 21%);
+    position: relative;
+}
+/*tab content*/
+.features-container .tab-content{
+    width: 100%;
+    display: flex;
+    column-gap: 124px;
+}
+/*illustration*/
+.features-container .tab-content .illustration{
+    padding-left: 170px;
+    position: relative;
+}
+
+.features-container .tab-content .illustration1{
+    padding: 84px;
+}
+.illustration2{
+    padding-bottom: 14px;
+}
+
+.illustration3{
+    padding-bottom: 42px;
+}
+
+.features-container .tab-content .illustration{
+    width: 86%;
+    height: 80%;
+    background-color: var(blue);
+    border-radius: 0 150px 150px 0;
+
+}
+
+.download-container{
+    width: 100%;
+}
+
+/*cards*/
+.download-container .cards{
+    display: flex;
+    column-gap: 34px;
+    justify-content: center;
+    align-items: start;
+}
+.download-container .cards .card-logo{
+    margin: 36px;
+}
+
+.download-container .card p{
+    margin-top: 8px;
+    font-size: 14px;
+}
+.download-container .card-logo .card-dots{
+    margin: 32px 0 30px;
+}
+.download-container .cards
